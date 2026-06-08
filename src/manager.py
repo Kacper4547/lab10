@@ -208,6 +208,11 @@ class Manager:
         -------
             float: The annual balance.
 
+        Example:
+        -------
+            >>> manager = Manager()
+            >>> manager.calculate_annual_balance(year=2023)
+
         """
         total_income = sum(
             transfer.amount_pln
